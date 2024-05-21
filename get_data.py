@@ -16,19 +16,15 @@ for i in social_result:
     bioguide = i["id"]["bioguide"]
 
     for j in cl_result:
-
         if bioguide == j["id"]["bioguide"]:
-
             if "twitter" in i["social"]:
 
                 current_term = j["terms"][-1]
-
                 party = current_term["party"]
 
                 BIAS_LEVEL = 1  # libearl
 
                 if party == "Republican":
-
                     BIAS_LEVEL = 0  # conservative
 
                 result = {
@@ -38,7 +34,7 @@ for i in social_result:
                     "bias": BIAS_LEVEL,
                 }
 
-    new_data.append(result)
+                new_data.append(result)
 
 print("----------")
-print(new_data)
+print(len(new_data))  # 467
