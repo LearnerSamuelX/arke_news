@@ -34,7 +34,7 @@ for i in social_result:
                 result = {
                     "first_name": j["name"]["first"],
                     "last_name": j["name"]["last"],
-                    "twitter": i["social"]["twitter"],
+                    "twitter_handle": i["social"]["twitter"],
                     "bias": BIAS_LEVEL,
                 }
 
