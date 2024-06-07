@@ -1,3 +1,5 @@
 .env
-dataset/847_capstone.csv
-dataset/twitter_handles.csv
+datasets/847_capstone.csv
+datasets/twitter_handles.csv
+datasets/twitter_col.csv
+datasets/tweets_with_bias.csv

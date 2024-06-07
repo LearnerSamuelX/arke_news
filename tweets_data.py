@@ -44,9 +44,6 @@ for i in social_result:
 
                 new_data.append(result)
 
-print("----------")
-print(len(new_data))  # 467
-
 # instantiate tweepy authenticator instance
 api_key = os.getenv("API_KEY")
 api_key_secret = os.getenv("API_KEY_SECRET")
